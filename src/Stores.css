@@ -5,6 +5,8 @@
   margin-bottom: 1rem;
   background-color: #efefef;
   border-radius: 5px;
+  margin-left: 5rem;
+  margin-right: 5rem;
 }
 
 .address {
@@ -16,10 +18,21 @@
   flex-direction: column;
   list-style: none;
   padding: 0;
-  margin-left: 3rem;
-  margin-right: 3rem;
 }
 
 .click-desc {
   font-size: 10px;
+}
+
+@media (min-width:1000px){
+  .list-item {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+    background-color: #efefef;
+    border-radius: 5px;
+    margin-left: 10rem;
+    margin-right: 10rem;
+  }
+
 }
