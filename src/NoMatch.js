@@ -7,7 +7,7 @@ export default class NoMatch extends Component {
   render() {
     return (
       <div>
-      Hello4
+      Error 404: Page not found or does not exist.
       </div>
     )
   }
