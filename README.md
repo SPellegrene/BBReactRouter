@@ -1,3 +1,5 @@
+This project was for The Iron Yard's Front-End Engineering Course. The goal of this assignment was to practice utilizing the React router, as well as the Google Maps Plugin(found in the 'Stores' section of the site).
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
