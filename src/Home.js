@@ -1,14 +1,16 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import api from './Api.js';
+import jpg from './copter.jpg';
 import './App.css';
+import './Home.css';
 
 export default class Home extends Component {
   render() {
     return (
       <div>
-      <p className="home-description">This web application was created for The Iron Yard's Front-End Enginerring Class. The Purpose of this project was to practice
-      utilizing React.js's router.</p>
+      <h2 className="home-description" style={{'font-family':'sans-serif'}}>The Air Monster 2.0</h2>
+      <img className="main-pic"src={jpg}/>
       </div>
     )
   }

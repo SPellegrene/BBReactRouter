@@ -1,4 +1,25 @@
+
+.list-item {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+  background-color: #efefef;
+  border-radius: 5px;
+}
+
 .address {
   font-weight: bold;
-  
+}
+
+.store-list {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  padding: 0;
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+
+.click-desc {
+  font-size: 10px;
 }

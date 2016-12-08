@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import api from './Api.js';
 import axios from 'axios';
+import Store from './Store';
+import { Link } from 'react-router';
 import './Stores.css';
 
 export default class Stores extends Component {
@@ -27,15 +28,18 @@ export default class Stores extends Component {
     });
   }
 
+
   render() {
     return (
       <div>
-        <ul>
+      <p>Avaliable in all stores where awesomeness is sold:</p>
+        <ul className="store-list">
         {this.state.stores.map((store, index) => {
           console.log(store);
           return (
-            <li key={store.id}>{store.name}
+            <li className="list-item" key={store.id}>{store.name}
               <span className="address">{store.address}</span>
+              <span className="click-desc"><Link to={'/store/' + store.id}>Click to see Map</Link></span>
             </li>
           )
         })}
